@@ -147,7 +147,7 @@ function CodeEditor({
           mode={language.toLocaleLowerCase()}
           showGutter={false}
           wrapEnabled={true}
-          height={`calc(${height}px - ${currentPadding} - ${currentPadding} - 52px)`}
+          height={`calc(${height}px - ${currentPadding} - ${currentPadding} - 60px)`}
           showPrintMargin={false}
           highlightActiveLine={false}
           editorProps={{ $blockScrolling: true }}

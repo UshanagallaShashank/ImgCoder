@@ -58,9 +58,9 @@ export default function Home() {
   };
 
   return (
-    <main className=" h-[100vh] flex flex-col items-center justify-between">
+    <main className=" h-[60vh] flex flex-col items-center justify-between">
       <header
-        className="mt-6 flex gap-6 w-[940px] p-5 fixed top-0 left-1/2 translate-x-[-50%]
+        className="mt-6 flex gap-6 w-[900px] p-5 fixed top-0 left-1/2 translate-x-[-50%]
          z-10 bg-[#191919] rounded border border-[#3C3C3C] shadow-md"
       >
         <LanguageSelector
@@ -95,7 +95,7 @@ export default function Home() {
         </div>
       </header>
 
-      <div className="code-editor-ref mt-[14rem]" ref={editorRef}>
+      <div className="code-editor-ref mt-[10rem]" ref={editorRef}>
         <CodeEditor
           language={language}
           theme={theme}
